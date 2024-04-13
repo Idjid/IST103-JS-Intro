@@ -1,5 +1,16 @@
-alert("Hello world!");
+// alert("Hello world!");
 
 let personName = "Mike";
-let personAge = "0";
-let isMarried = "no";
+let personAge = 12;
+
+// название структуры данных boolean она принимает 2 значения true & false
+let isMarried = true;
+
+//ЧТОБЫ УВИДЕТЬ РЕЗУЛЬТАТ console.log-а надо открыть html/script скрипт в браузере нажать "инспектировать страницу" и найти вкладку console
+//мы использует cpmsole.log с ковычками внутри окгурлых скобок когда передаём просто тект
+console.log("За королеву");
+//мы используем console.log без ковычек внутри когда мы вставляем туда имя переменной
+console.log(personName);
+//мы используем console.log с и без ковычек когда мы делаем соединения разных типов данных. Эта процедура называется concatenation
+// когда мы делаем соединения данных ("Имя персоны:" + personName) мы используем оперант +
+console.log("Имя персоны:" + personName);
